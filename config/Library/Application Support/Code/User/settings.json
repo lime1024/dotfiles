@@ -1,0 +1,19 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Solarized Dark+",
+  "window.zoomLevel": 0,
+  "files.insertFinalNewline": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.renderWhitespace": "all",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "scss.completion.completePropertyWithSemicolon": false,
+  "typescript.referencesCodeLens.enabled": true,
+  "files.exclude": {
+    "**/.hg": false,
+    "**/.svn": false,
+    "**/.tool-versions": true,
+    "**/CVS": false
+  },
+  "editor.fontWeight": null
+}
