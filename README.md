@@ -3,6 +3,7 @@
 
 ```console
 $ curl -fsSLo /tmp/setup.sh https://raw.githubusercontent.com/lime1024/dotfiles/master/setup.sh
+$ chmod +x /tmp/setup.sh
 $ /tmp/setup.sh
 $ /tmp/dotfiles-master/run.sh
 ```

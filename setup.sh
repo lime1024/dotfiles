@@ -12,3 +12,4 @@ chmod +x /usr/local/bin/mitamae
 # pull dotfiles
 curl -fsSL https://github.com/lime1024/dotfiles/archive/refs/heads/master.zip -o /tmp/dotfiles.zip
 unzip /tmp/dotfiles.zip -d /tmp/
+chmod +x /tmp/dotfiles-master/run.sh
