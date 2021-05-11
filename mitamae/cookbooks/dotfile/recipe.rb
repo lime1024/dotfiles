@@ -1,5 +1,5 @@
 define :dotfile do
-  name = params[:name].shellescape
+  name = params[:name]
 
   src = File.join(node[:dotfiles], name)
   dst = File.join(node[:home], name)
