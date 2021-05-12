@@ -5,6 +5,5 @@ set -o errexit -o pipefail -o xtrace
 eval "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # pull mitamae
-url="https://api.github.com/repos/itamae-kitchen/mitamae/releases/latest"
-curl -fsSLo /usr/local/bin/mitamae "$(curl ${url} | grep -o 'https:.\+mitamae-x86_64-darwin' | head -n 1)"
+curl -fsSLo /usr/local/bin/mitamae https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-x86_64-darwin
 chmod +x /usr/local/bin/mitamae
