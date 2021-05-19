@@ -2,7 +2,7 @@ include_recipe File.expand_path('../../../helper.rb', __FILE__)
 
 node.reverse_merge!(
   dotfiles: File.expand_path('../../../../config/', __FILE__),
-  home: '/Users/lime1024/'
+  home: '/Users/lime1024'
 )
 
 include_cookbook 'dotfile'
