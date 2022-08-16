@@ -12,5 +12,5 @@ case "$(uname -m)" in
 esac
 
 # pull mitamae
-curl -fsSLo /usr/local/bin/mitamae https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-${arch}-darwin
-chmod +x /usr/local/bin/mitamae
+sudo curl -fsSLo /usr/local/bin/mitamae https://github.com/itamae-kitchen/mitamae/releases/latest/download/mitamae-${arch}-darwin
+sudo chmod +x /usr/local/bin/mitamae
