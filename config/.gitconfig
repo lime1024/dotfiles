@@ -15,3 +15,5 @@
   templatedir = ~/.git-templates/git-secrets
 [core]
   excludesfile = ~/.gitignore
+[commit]
+  gpgsign = true
