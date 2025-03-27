@@ -45,3 +45,6 @@ PS1='%F{green}%n:%f%F{white}%~%f%F{yellow}$(__git_ps1 " (%s)")%f$ '
 # git completion
 autoload -U compinit
 compinit -u
+
+# gpgkey
+export GPG_TTY=$TTY
