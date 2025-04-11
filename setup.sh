@@ -2,7 +2,7 @@
 set -o errexit -o pipefail -o xtrace
 
 # install homebrew
-eval "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # check architecture
 case "$(uname -m)" in
